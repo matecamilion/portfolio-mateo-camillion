@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mateo Camilión — Full Stack Developer &amp; Founder</title>
+<meta name="description" content="Full stack developer y founder de dos productos SaaS en producción para el mercado inmobiliario. Mar del Plata, Argentina.">
+<meta name="author" content="Mateo Camilión">
+<meta name="theme-color" content="#0B0F13">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mateo Camilión — Full Stack Developer &amp; Founder">
+<meta property="og:description" content="Construyo el software que corre por detrás de inmobiliarias reales. Dos productos SaaS en producción, con clientes pagando.">
+<meta property="og:locale" content="es_AR">
+<meta property="og:locale:alternate" content="en_US">
+<!-- TODO: preguntar a Mateo — falta og:image (1200x630) y og:url con el dominio final.
+     Cuando los tengas, descomentar estas dos líneas:
+<meta property="og:url" content="https://TU-DOMINIO.com/">
+<meta property="og:image" content="https://TU-DOMINIO.com/assets/og.jpg">
+-->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mateo Camilión — Full Stack Developer &amp; Founder">
+<meta name="twitter:description" content="Construyo el software que corre por detrás de inmobiliarias reales.">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/mateo.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add("js");</script>
+
+<a class="skip-link" href="#proyectos" data-i18n="nav.skip">Saltar a proyectos</a>
+
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top">
+      <span class="nav__dot" aria-hidden="true"></span>
+      <span class="nav__name">MATEO&nbsp;CAMILIÓN</span>
+    </a>
+
+    <div class="nav__right">
+      <nav class="nav__links" aria-label="Secciones del sitio" data-i18n-aria="nav.sections">
+        <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+        <a href="#sobre-mi" data-i18n="nav.about">Quién soy</a>
+        <a href="#stack" data-i18n="nav.stack">Stack</a>
+        <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="lang" role="group" aria-label="Idioma" data-i18n-aria="lang.aria">
+        <button class="lang__btn is-on" type="button" data-lang="es" aria-pressed="true" lang="es">ES</button>
+        <span class="lang__sep" aria-hidden="true">·</span>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+  <p class="sr-only" role="status" data-lang-status></p>
+</header>
+
+<main id="top">
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+
+      <div class="hero__body">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">FULL STACK DEV · FOUNDER · MAR DEL PLATA, ARGENTINA</p>
+        <h1 class="hero__title reveal" data-i18n="hero.headline">Construyo el software que corre por detrás de inmobiliarias reales.</h1>
+        <p class="hero__sub reveal" data-i18n="hero.sub">Full stack developer y founder de dos productos SaaS en producción, con clientes pagando. A un mes de recibirme de la Tecnicatura Universitaria en Programación (UTN).</p>
+      </div>
+
+      <figure class="portrait reveal">
+        <img src="assets/mateo.jpg" alt="Retrato de Mateo Camilión" data-i18n-alt="hero.portraitAlt" width="440" height="660" fetchpriority="high">
+        <!-- TODO: preguntar a Mateo — si querés mostrar disponibilidad, descomentá este badge:
+        <figcaption class="portrait__badge"><span class="dot dot--live"></span>Abierto a propuestas</figcaption>
+        -->
+      </figure>
+
+    </div>
+
+    <div class="wrap">
+      <div class="legend reveal" role="group" aria-label="Filtrar proyectos por estado" data-i18n-aria="legend.aria" data-legend>
+        <p class="legend__label" data-i18n="legend.label">ESTADO</p>
+        <div class="legend__items">
+          <button class="legend__btn is-on" type="button" data-filter="all" aria-pressed="true">
+            <span class="legend__text" data-i18n="legend.all">Todos</span><span class="legend__count" data-count="all"></span>
+          </button>
+          <button class="legend__btn" type="button" data-filter="produccion" aria-pressed="false">
+            <span class="dot dot--live" aria-hidden="true"></span>
+            <span class="legend__text" data-i18n="status.produccion">En producción</span><span class="legend__count" data-count="produccion"></span>
+          </button>
+          <button class="legend__btn" type="button" data-filter="entregado" aria-pressed="false">
+            <span class="dot dot--done" aria-hidden="true"></span>
+            <span class="legend__text" data-i18n="status.entregado">Entregado</span><span class="legend__count" data-count="entregado"></span>
+          </button>
+          <button class="legend__btn" type="button" data-filter="revision" aria-pressed="false">
+            <span class="dot dot--review" aria-hidden="true"></span>
+            <span class="legend__text" data-i18n="status.revision">En revisión</span><span class="legend__count" data-count="revision"></span>
+          </button>
+        </div>
+      </div>
+      <p class="sr-only" role="status" data-live></p>
+    </div>
+  </section>
+
+  <!-- ==================== PROYECTOS ==================== -->
+  <section class="section" id="proyectos">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <h2 class="section__title" data-i18n="projects.title">Proyectos</h2>
+        <p class="section__note" data-i18n="projects.note">Cuatro productos, cada uno en su estado real.</p>
+      </div>
+
+      <div class="board" data-board>
+
+        <article class="card reveal" data-status="produccion">
+          <span class="card__pin" aria-hidden="true"><span class="dot dot--live"></span></span>
+
+          <figure class="shot" data-shot>
+            <span class="shot__bar" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="shot__view">
+              <span class="shot__ghost" aria-hidden="true"></span>
+              <img src="assets/projects/signa.png" alt="Captura de pantalla del dashboard de Signa"
+                   data-i18n-alt="proj.signa.shotAlt" loading="lazy" width="800" height="500">
+            </span>
+          </figure>
+
+          <div class="card__main">
+            <p class="eyebrow" data-i18n="proj.signa.eyebrow">PRODUCTO PROPIO · SAAS</p>
+            <div class="card__head">
+              <h3 class="card__title">Signa</h3>
+              <p class="card__status">
+                <span class="dot dot--live" aria-hidden="true"></span>
+                <span data-i18n="status.produccion">En producción</span>
+              </p>
+            </div>
+            <p class="card__desc" data-i18n="proj.signa.desc">Sistema multi-tenant de gestión de reservas para inmobiliarias. Clientes activos pagando, incluyendo Century 21 Mar del Plata y VQL Inmobiliaria.</p>
+            <p class="card__desc card__desc--extra" data-i18n="proj.signa.extra">Suma carga rápida de reservas por voz (Whisper + GPT-4o-mini) y export de reportes a PDF con html2canvas y jsPDF.</p>
+            <ul class="chips">
+              <li>React 18</li><li>Vite</li><li>Tailwind CSS</li><li>React Router v6</li><li>PWA</li>
+              <li>Supabase</li><li>PostgreSQL</li><li>Edge Functions (Deno)</li><li>Recharts</li>
+              <li>OpenAI GPT-4o-mini</li><li>Whisper</li>
+            </ul>
+            <a class="card__link" href="https://signa.net.ar" target="_blank" rel="noopener noreferrer">
+              signa.net.ar<span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card reveal" data-status="produccion">
+          <span class="card__pin" aria-hidden="true"><span class="dot dot--live"></span></span>
+
+          <figure class="shot" data-shot>
+            <span class="shot__bar" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="shot__view">
+              <span class="shot__ghost" aria-hidden="true"></span>
+              <img src="assets/projects/leadera.png" alt="Captura de pantalla del CRM Leadera"
+                   data-i18n-alt="proj.leadera.shotAlt" loading="lazy" width="800" height="500">
+            </span>
+          </figure>
+
+          <div class="card__main">
+            <p class="eyebrow" data-i18n="proj.leadera.eyebrow">PRODUCTO PROPIO · CRM</p>
+            <div class="card__head">
+              <h3 class="card__title">Leadera</h3>
+              <p class="card__status">
+                <span class="dot dot--live" aria-hidden="true"></span>
+                <span data-i18n="status.produccion">En producción</span>
+              </p>
+            </div>
+            <p class="card__desc" data-i18n="proj.leadera.desc">CRM inmobiliario que separa leads de operaciones como entidades distintas, con automatizaciones en n8n para seguimiento diario y reclasificación de leads.</p>
+            <ul class="chips">
+              <li>Java</li><li>Spring Boot</li><li>Spring Security</li><li>JWT</li><li>Angular</li><li>n8n</li>
+            </ul>
+            <a class="card__link" href="https://leadera.com.ar" target="_blank" rel="noopener noreferrer">
+              leadera.com.ar<span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card reveal" data-status="entregado">
+          <span class="card__pin" aria-hidden="true"><span class="dot dot--done"></span></span>
+
+          <figure class="shot" data-shot>
+            <span class="shot__bar" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="shot__view">
+              <span class="shot__ghost" aria-hidden="true"></span>
+              <img src="assets/projects/swapstyle.png" alt="Captura de pantalla del sistema de gestión de Swapstyle"
+                   data-i18n-alt="proj.swapstyle.shotAlt" loading="lazy" width="800" height="500">
+            </span>
+          </figure>
+
+          <div class="card__main">
+            <p class="eyebrow" data-i18n="proj.swapstyle.eyebrow">FREELANCE · E-COMMERCE</p>
+            <div class="card__head">
+              <h3 class="card__title">Swapstyle</h3>
+              <p class="card__status">
+                <span class="dot dot--done" aria-hidden="true"></span>
+                <span data-i18n="status.entregado">Entregado</span>
+              </p>
+            </div>
+            <p class="card__desc" data-i18n="proj.swapstyle.desc">Sistema de gestión para una tienda de ropa en consignación, con agente de IA integrado vía n8n para atención al cliente.</p>
+            <ul class="chips">
+              <li>Next.js 14</li><li>React 19</li><li>TypeScript</li><li>Supabase</li><li>shadcn/ui</li><li>n8n</li>
+            </ul>
+            <p class="card__link card__link--none" data-i18n="proj.swapstyle.link">Repo privado</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-status="revision">
+          <span class="card__pin" aria-hidden="true"><span class="dot dot--review"></span></span>
+
+          <figure class="shot" data-shot>
+            <span class="shot__bar" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="shot__view">
+              <span class="shot__ghost" aria-hidden="true"></span>
+              <img src="assets/projects/miga.png" alt="Captura de pantalla de la landing de Miga"
+                   data-i18n-alt="proj.miga.shotAlt" loading="lazy" width="800" height="500">
+            </span>
+          </figure>
+
+          <div class="card__main">
+            <p class="eyebrow" data-i18n="proj.miga.eyebrow">FREELANCE · LANDING PAGE</p>
+            <div class="card__head">
+              <h3 class="card__title">Miga</h3>
+              <p class="card__status">
+                <span class="dot dot--review" aria-hidden="true"></span>
+                <span data-i18n="status.revision">En revisión</span>
+              </p>
+            </div>
+            <p class="card__desc" data-i18n="proj.miga.desc">Landing page para un negocio de sanguches.</p>
+            <p class="card__desc card__desc--extra" data-i18n="proj.miga.note">Pendiente de entrega final al cliente.</p>
+            <ul class="chips">
+              <li>Vercel</li>
+              <!-- TODO: preguntar a Mateo — confirmar el resto del stack de Miga (framework, CMS, etc.) -->
+            </ul>
+            <a class="card__link" href="https://miga-iota.vercel.app/" target="_blank" rel="noopener noreferrer">
+              miga-iota.vercel.app<span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== QUIÉN SOY ==================== -->
+  <section class="section section--alt" id="sobre-mi">
+    <div class="wrap about">
+      <div class="section__head reveal">
+        <h2 class="section__title" data-i18n="about.title">Quién soy</h2>
+      </div>
+      <div class="about__text reveal">
+        <p data-i18n="about.p1">Tengo todas las materias de la Tecnicatura Universitaria en Programación (UTN Mar del Plata) aprobadas — promedio 9.06 — y estoy a un paso de rendir la tesis, el 31 de agosto. En paralelo ya construí y sostengo dos productos SaaS con clientes reales pagando: no son proyectos de facultad, son sistemas en producción.</p>
+        <p data-i18n="about.p2">Antes de programar, pasé dos temporadas en hospitality en resorts de Park City, Utah (Westgate Resorts, Vail Resorts). De ahí viene mi inglés — no de un curso, sino de meses resolviendo problemas en equipos internacionales todos los días.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== STACK ==================== -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <h2 class="section__title" data-i18n="stack.title">Stack</h2>
+      </div>
+
+      <div class="stack">
+        <div class="stack__group reveal">
+          <p class="eyebrow" data-i18n="stack.frontend.name">FRONTEND</p>
+          <ul class="chips chips--lg">
+            <li>React</li><li>Next.js</li><li>Vite</li><li>TypeScript</li><li>Tailwind CSS</li>
+          </ul>
+          <p class="stack__note" data-i18n="stack.frontend.note">Interfaces de producción, no demos: los mismos componentes que corren en Signa hoy.</p>
+        </div>
+
+        <div class="stack__group reveal">
+          <p class="eyebrow" data-i18n="stack.backend.name">BACKEND</p>
+          <ul class="chips chips--lg">
+            <li>Java</li><li>Spring Boot</li><li>Supabase</li><li>PostgreSQL</li>
+          </ul>
+          <p class="stack__note" data-i18n="stack.backend.note">Desde APIs REST con auth hasta modelado de datos multi-tenant.</p>
+        </div>
+
+        <div class="stack__group reveal">
+          <p class="eyebrow" data-i18n="stack.ai.name">AUTOMATIZACIÓN &amp; IA</p>
+          <ul class="chips chips--lg">
+            <li>n8n</li><li>OpenAI (GPT-4o-mini, Whisper)</li><li>Claude Code</li>
+          </ul>
+          <p class="stack__note" data-i18n="stack.ai.note">Automatizo flujos de negocio reales (seguimiento de leads, carga por voz), no solo prompts sueltos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==================== CONTACTO ==================== -->
+<footer class="footer" id="contacto">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2 class="section__title" data-i18n="contact.title">Contacto</h2>
+      <p class="section__note" data-i18n="contact.note">Disponible para hablar de trabajo, freelance o producto.</p>
+    </div>
+
+    <ul class="rows reveal">
+      <li class="row">
+        <span class="row__key">EMAIL</span>
+        <a class="row__val" href="mailto:matecamilion05@gmail.com">matecamilion05@gmail.com</a>
+      </li>
+      <li class="row">
+        <span class="row__key">LINKEDIN</span>
+        <a class="row__val" href="https://www.linkedin.com/in/mateo-camilion-38b93426a" target="_blank" rel="noopener noreferrer">/in/mateo-camilion-38b93426a</a>
+      </li>
+      <li class="row">
+        <span class="row__key">GITHUB</span>
+        <a class="row__val" href="https://github.com/matecamilion" target="_blank" rel="noopener noreferrer">/matecamilion</a>
+      </li>
+      <li class="row">
+        <span class="row__key" data-i18n="contact.location">UBICACIÓN</span>
+        <span class="row__val row__val--plain">Mar del Plata, Argentina</span>
+      </li>
+    </ul>
+
+    <p class="footer__sign">
+      <span class="footer__name">Mateo Camilión</span>
+      <span class="footer__meta">© <span data-year>2026</span> · <span data-i18n="footer.meta">Escrito a mano en HTML, CSS y JS</span></span>
+    </p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js" defer></script>
