@@ -25,7 +25,7 @@ window.I18N = (function () {
 
       "hero.eyebrow": "FULL STACK DEV · FOUNDER · MAR DEL PLATA, ARGENTINA",
       "hero.headline": "Construyo el software que corre por detrás de inmobiliarias reales.",
-      "hero.sub": "Full stack developer y founder de dos productos SaaS en producción, con clientes pagando. A un mes de recibirme de la Tecnicatura Universitaria en Programación (UTN).",
+      "hero.sub": "Full stack developer y founder de dos productos SaaS en producción, con clientes pagando. Técnico Universitario en Programación (UTN), recibido en 2026.",
       "hero.portraitAlt": "Retrato de Mateo Camilión",
 
       "legend.aria": "Filtrar proyectos por estado",
@@ -37,7 +37,7 @@ window.I18N = (function () {
       "status.revision": "En revisión",
 
       "projects.title": "Proyectos",
-      "projects.note": "Cuatro productos, cada uno en su estado real.",
+      "projects.note": "Cinco productos, cada uno en su estado real.",
 
       "proj.signa.eyebrow": "PRODUCTO PROPIO · SAAS",
       "proj.signa.desc": "Sistema multi-tenant de gestión de reservas para inmobiliarias. Clientes activos pagando, incluyendo Century 21 Mar del Plata y VQL Inmobiliaria.",
@@ -47,6 +47,10 @@ window.I18N = (function () {
       "proj.leadera.eyebrow": "PRODUCTO PROPIO · CRM",
       "proj.leadera.desc": "CRM inmobiliario que separa leads de operaciones como entidades distintas, con automatizaciones en n8n para seguimiento diario y reclasificación de leads.",
       "proj.leadera.shotAlt": "Captura de pantalla del CRM Leadera",
+
+      "proj.utnutri.eyebrow": "PROYECTO ACADÉMICO · SISTEMA DE GESTIÓN",
+      "proj.utnutri.desc": "Sistema de gestión de pacientes para nutricionistas, con aislamiento multi-tenant entre profesionales. Trabajo final integrador de la Tecnicatura Universitaria en Programación (UTN).",
+      "proj.utnutri.shotAlt": "Captura de pantalla del sistema de gestión UTNutri",
 
       "proj.swapstyle.eyebrow": "FREELANCE · E-COMMERCE",
       "proj.swapstyle.desc": "Sistema de gestión para una tienda de ropa en consignación, con agente de IA integrado vía n8n para atención al cliente.",
@@ -59,7 +63,7 @@ window.I18N = (function () {
       "proj.miga.shotAlt": "Captura de pantalla de la landing de Miga",
 
       "about.title": "Quién soy",
-      "about.p1": "Tengo todas las materias de la Tecnicatura Universitaria en Programación (UTN Mar del Plata) aprobadas — promedio 9.06 — y estoy a un paso de rendir la tesis, el 31 de agosto. En paralelo ya construí y sostengo dos productos SaaS con clientes reales pagando: no son proyectos de facultad, son sistemas en producción.",
+      "about.p1": "Soy Técnico Universitario en Programación (UTN Mar del Plata) — promedio 9.06. En paralelo a la carrera, construí y sostengo dos productos SaaS con clientes reales pagando: no son proyectos de facultad, son sistemas en producción.",
       "about.p2": "Antes de programar, pasé dos temporadas en hospitality en resorts de Park City, Utah (Westgate Resorts, Vail Resorts). De ahí viene mi inglés — no de un curso, sino de meses resolviendo problemas en equipos internacionales todos los días.",
 
       "stack.title": "Stack",
@@ -93,7 +97,7 @@ window.I18N = (function () {
 
       "hero.eyebrow": "FULL STACK DEV · FOUNDER · MAR DEL PLATA, ARGENTINA",
       "hero.headline": "I build the software real estate agencies actually run on.",
-      "hero.sub": "Full stack developer and founder of two SaaS products in production, with paying clients. Weeks away from graduating with a degree in Software Engineering (UTN).",
+      "hero.sub": "Full stack developer and founder of two SaaS products in production, with paying clients. University Technical Degree in Programming (UTN), graduated in 2026.",
       "hero.portraitAlt": "Portrait of Mateo Camilión",
 
       "legend.aria": "Filter projects by status",
@@ -105,7 +109,7 @@ window.I18N = (function () {
       "status.revision": "In review",
 
       "projects.title": "Projects",
-      "projects.note": "Four products, each in its real state.",
+      "projects.note": "Five products, each in its real state.",
 
       "proj.signa.eyebrow": "OWN PRODUCT · SAAS",
       "proj.signa.desc": "Multi-tenant booking management system for real estate agencies. Active paying clients, including Century 21 Mar del Plata and VQL Inmobiliaria.",
@@ -115,6 +119,10 @@ window.I18N = (function () {
       "proj.leadera.eyebrow": "OWN PRODUCT · CRM",
       "proj.leadera.desc": "Real estate CRM that separates leads from operations as distinct entities, with n8n automations for daily follow-ups and lead reclassification.",
       "proj.leadera.shotAlt": "Screenshot of the Leadera CRM",
+
+      "proj.utnutri.eyebrow": "ACADEMIC PROJECT · MANAGEMENT SYSTEM",
+      "proj.utnutri.desc": "Patient management system for nutritionists, with multi-tenant isolation between practitioners. Final capstone project for the University Technical Degree in Programming (UTN).",
+      "proj.utnutri.shotAlt": "Screenshot of the UTNutri management system",
 
       "proj.swapstyle.eyebrow": "FREELANCE · E-COMMERCE",
       "proj.swapstyle.desc": "Management system for a clothing consignment store, with an AI agent built with n8n for customer support.",
@@ -127,7 +135,7 @@ window.I18N = (function () {
       "proj.miga.shotAlt": "Screenshot of the Miga landing page",
 
       "about.title": "About me",
-      "about.p1": "I've completed every course in my Software Engineering degree (UTN Mar del Plata) — 9.06 GPA — and I'm about to defend my thesis on August 31st. In parallel, I've built and maintained two SaaS products with real, paying clients: not school projects, systems in production.",
+      "about.p1": "I hold a University Technical Degree in Programming (UTN Mar del Plata) — 9.06 GPA. Alongside the degree, I built and maintain two SaaS products with real, paying clients: not school projects, systems in production.",
       "about.p2": "Before I started coding, I spent two seasons in hospitality at resorts in Park City, Utah (Westgate Resorts, Vail Resorts). That's where my English comes from — not a course, but months solving problems on international teams, every day.",
 
       "stack.title": "Stack",
